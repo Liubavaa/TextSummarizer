@@ -3,7 +3,9 @@ import uvicorn
 from langchain.chains.summarize import load_summarize_chain
 from langchain_community.llms import HuggingFaceHub
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+import os
 
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'  # set hf token to access llm
 
 app = FastAPI()
 

@@ -1,0 +1,6 @@
+POST http://localhost:8000/summarize
+Content-Type: application/json
+
+{
+    "text": "A nurse shark is a nocturnal animal that spends its day in large groups of up to 40 individuals. Nurse sharks prefer specific resting locations and retreat to them every day after they have gone deep into the reef. At night, these sharks are primarily solitary. The nurse sharks spend most of their time foraging through the bottom sediments in search of food. Their diet consists mainly of crustaceans, mollusks, tunicates, and other fish, such as spiny lobsters, crabs, and shrimps."
+}
